@@ -67,7 +67,7 @@ void Booking::displayBookingDetails()
 	cout << "Seats : " << seats + 1 << endl;
 	cout << "Status : " << status << endl;
 	cout << "----------- Number of Passengers -----------\n";
-	for (int i = 0; i <= seats; i++)
+	for (int i = 0; i < seats; i++)
 	{
 		cout << "Passenger ID : " << passenger_ids[i] << endl;
 	}
